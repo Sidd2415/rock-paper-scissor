@@ -1,0 +1,77 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body Styling */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+}
+
+/* Main Container */
+center {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Title */
+h2 {
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+/* Buttons Container */
+.buttons {
+    margin-bottom: 25px;
+}
+
+/* Buttons */
+button {
+    padding: 12px 25px;
+    margin: 8px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: white;
+    color: #2a5298;
+}
+
+/* Hover Effect */
+button:hover {
+    transform: translateY(-3px);
+    background-color: #ffd369;
+    color: black;
+}
+
+/* Click Effect */
+button:active {
+    transform: scale(0.95);
+}
+
+/* Result Text */
+#result {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Leaderboard */
+#leaderboard {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.6;
+}
